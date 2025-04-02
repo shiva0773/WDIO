@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="first test" timestamp="2025-04-02T16:03:47" time="6.584" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="first test"/>
+      <property name="capabilities" value="chrome.134_0_6998_178.windows"/>
+      <property name="file" value="file:///C:/WDIO/WDIO_Project1/test/specs/test1.spec.js"/>
+    </properties>
+    <testcase classname="chrome.134_0_6998_178.windows.first_test" name="My first test" time="6.582">
+      <system-out><![CDATA[
+COMMAND: POST /session/0688b6553ec478033002469a586c25ad/element/f.0785010EDFB5ED1CABEC82C0C4323AD9.d.33DC29288AED7169252013B48F6A0669.e.1/clear - {}
+RESULT: {}
+COMMAND: POST /session/0688b6553ec478033002469a586c25ad/element/f.0785010EDFB5ED1CABEC82C0C4323AD9.d.33DC29288AED7169252013B48F6A0669.e.1/value - {"text":"hyderabad"}
+RESULT: {"text":"hyderabad"}
+COMMAND: POST /session/0688b6553ec478033002469a586c25ad/actions - {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+COMMAND: DELETE /session/0688b6553ec478033002469a586c25ad - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Login page" timestamp="2025-04-02T16:13:10" time="6.723" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Login page"/>
+      <property name="capabilities" value="chrome.134_0_6998_178.windows"/>
+      <property name="file" value="file:///C:/WDIO/WDIO_Project1/test/specs/Login.spec.js"/>
+    </properties>
+    <testcase classname="chrome.134_0_6998_178.windows.Login_page" name="Login with valid cred" time="6.721">
+      <system-out><![CDATA[
+COMMAND: POST /session/be69de1ef826dfe0cf9a2c5a3e8d620a/element/f.53C55ECCFB46E345DD3AAA13B64D5E63.d.76DC1E17A80CE5B70866AE26DB49E873.e.5/clear - {}
+RESULT: {}
+COMMAND: POST /session/be69de1ef826dfe0cf9a2c5a3e8d620a/element/f.53C55ECCFB46E345DD3AAA13B64D5E63.d.76DC1E17A80CE5B70866AE26DB49E873.e.5/value - {"text":"student"}
+RESULT: {"text":"student"}
+COMMAND: POST /session/be69de1ef826dfe0cf9a2c5a3e8d620a/element/f.53C55ECCFB46E345DD3AAA13B64D5E63.d.76DC1E17A80CE5B70866AE26DB49E873.e.6/clear - {}
+RESULT: {}
+COMMAND: POST /session/be69de1ef826dfe0cf9a2c5a3e8d620a/element/f.53C55ECCFB46E345DD3AAA13B64D5E63.d.76DC1E17A80CE5B70866AE26DB49E873.e.6/value - {"text":"Password123"}
+RESULT: {"text":"Password123"}
+COMMAND: POST /session/be69de1ef826dfe0cf9a2c5a3e8d620a/element/f.53C55ECCFB46E345DD3AAA13B64D5E63.d.76DC1E17A80CE5B70866AE26DB49E873.e.17/click - {}
+RESULT: {}
+COMMAND: GET /session/be69de1ef826dfe0cf9a2c5a3e8d620a/title - {}
+RESULT: {}
+COMMAND: GET /session/be69de1ef826dfe0cf9a2c5a3e8d620a/element/f.53C55ECCFB46E345DD3AAA13B64D5E63.d.63F68C8E27C714D7F9FA80D933EC0E56.e.24/text - {}
+RESULT: {}
+COMMAND: POST /session/be69de1ef826dfe0cf9a2c5a3e8d620a/element/f.53C55ECCFB46E345DD3AAA13B64D5E63.d.63F68C8E27C714D7F9FA80D933EC0E56.e.25/click - {}
+RESULT: {}
+COMMAND: DELETE /session/be69de1ef826dfe0cf9a2c5a3e8d620a - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
