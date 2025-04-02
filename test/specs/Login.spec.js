@@ -13,6 +13,8 @@ await login.getTitle()
 await login.getMessage()
 await login.Logout()
 await browser.pause(3000)
+     await browser.pause(3000)
+
     
     })
 
